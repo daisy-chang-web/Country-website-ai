@@ -12,3 +12,7 @@ A four-page, mobile-first travel guide about Taiwan built with semantic HTML, CS
 ## Run locally
 
 Open `index.html` in a browser or serve the folder with a static server.
+
+## Live site
+
+GitHub Pages: <https://daisy-chang-web.github.io/Country-website-ai/>

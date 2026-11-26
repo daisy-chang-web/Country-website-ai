@@ -15,13 +15,15 @@
   <header class="site-header"><div class="container header-panel">
     <a class="logo-badge" href="index.html" aria-label="Taiwan home">TW</a>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+    <nav aria-label="Main">
     <ul class="site-menu" id="site-menu"><li><a href="index.html">Home</a></li><li><a href="attractions.html">Attractions</a></li><li><a href="food.html" aria-current="page">Food</a></li><li><a href="credits.html">Credits</a></li></ul>
+    </nav>
   </div></header>
   <main id="main">
     <section class="section"><div class="container"><h1>Taiwan on a plate</h1><p>Taiwanese food blends local traditions with influences from many communities. Night markets make small tastings especially easy.</p></div></section>
     <section class="section"><div class="container food-grid">
-      <div class="food-feature"><img src="images/night-market.webp" alt="A food stall in Linjiang Street Night Market" width="1280" height="853" loading="lazy"><h2>Night markets</h2><p>Start in Taipei's Raohe or Shilin markets, then try smaller evening markets in Tainan or Kaohsiung.</p></div>
-      <div class="food-feature"><img src="images/bubble-tea.webp" alt="A Taiwanese bubble tea shop and drinks" width="1280" height="853" loading="lazy"><h2>Bubble tea</h2><p>Chewy tapioca pearls, tea and milk form a refreshing snack, but the combinations are nearly endless.</p></div>
+      <div class="food-feature"><img src="images/night-market.webp" alt="A food stall in Linjiang Street Night Market" width="1280" height="960" loading="lazy"><h2>Night markets</h2><p>Start in Taipei's Raohe or Shilin markets, then try smaller evening markets in Tainan or Kaohsiung.</p></div>
+      <div class="food-feature"><img src="images/bubble-tea.webp" alt="A Taiwanese bubble tea shop and drinks" width="1280" height="1704" loading="lazy"><h2>Bubble tea</h2><p>Chewy tapioca pearls, tea and milk form a refreshing snack, but the combinations are nearly endless.</p></div>
     </div></section>
     <section class="section"><div class="container">
       <section class="table-scroll" tabindex="0" aria-label="Scrollable table of Taiwanese dishes">
@@ -42,10 +44,10 @@
       <h2>Share a food recommendation</h2>
       <form action="#" method="post">
         <fieldset><legend>Contact details</legend>
-          <label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required>
-          <label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required>
+          <label for="name">Name (required)</label><input id="name" name="name" type="text" autocomplete="name" required>
+          <label for="email">Email (required)</label><input id="email" name="email" type="email" autocomplete="email" required>
           <label for="dish">Favourite dish</label><select id="dish" name="dish"><option value="">Choose one</option><option>Niu rou mian</option><option>Xiaolongbao</option><option>Bubble tea</option><option>Chou doufu</option><option>Oa jian</option></select>
-          <label for="message">Message</label><textarea id="message" name="message" required aria-describedby="message-hint"></textarea><small id="message-hint">Tell us where you ate and what made it memorable.</small>
+          <label for="message">Message (required)</label><textarea id="message" name="message" required aria-describedby="message-hint"></textarea><small id="message-hint">Tell us where you ate and what made it memorable.</small>
         </fieldset>
         <button class="submit-button" type="submit">Send recommendation</button>
       </form>

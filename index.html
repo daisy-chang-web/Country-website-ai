@@ -19,18 +19,20 @@
     <div class="container header-panel">
       <a class="logo-badge" href="index.html" aria-label="Taiwan home">TW</a>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+      <nav aria-label="Main">
       <ul class="site-menu" id="site-menu">
         <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="attractions.html">Attractions</a></li>
         <li><a href="food.html">Food</a></li>
         <li><a href="credits.html">Credits</a></li>
       </ul>
+      </nav>
     </div>
   </header>
   <main id="main">
     <section class="hero">
       <div class="container hero-card">
-        <img src="images/taipei-101.webp" alt="Taipei 101 rising above the city skyline" width="1280" height="853">
+        <img src="images/taipei-101.webp" alt="Taipei 101 rising above the city skyline" width="1024" height="1652">
         <div class="hero-title"><h1>Taiwan</h1><p>An island of mountain trails, night markets and warm welcomes.</p></div>
       </div>
     </section>
@@ -43,24 +45,24 @@
           <dl class="fact-list">
             <div><dt>Capital</dt><dd>Taipei</dd></div>
             <div><dt>Population</dt><dd>~23.5 million</dd></div>
-            <div><dt>Languages</dt><dd>Mandarin</dd></div>
+            <div><dt>Languages</dt><dd>Mandarin, Taiwanese, Hakka and Indigenous languages</dd></div>
             <div><dt>Currency</dt><dd>New Taiwan dollar</dd></div>
           </dl>
         </div>
-        <img src="images/sun-moon-lake.webp" alt="Mountain ridges surrounding a calm lake" width="1280" height="853" loading="lazy">
+        <img src="images/sun-moon-lake.webp" alt="Mountain ridges surrounding a calm lake" width="1280" height="960" loading="lazy">
       </div>
     </section>
     <section class="section panel pink">
       <div class="container">
-        <h2 class="pickup-heading">Pick up</h2>
+        <h2 class="pickup-heading">Featured</h2>
         <div class="card-grid">
-          <article class="pickup-card"><a href="attractions.html"><img src="images/taroko.webp" alt="" width="1280" height="853" loading="lazy"><div class="card-copy"><span class="tag">Nature</span><h3>Walk through Taroko Gorge</h3></div></a></article>
-          <article class="pickup-card"><a href="attractions.html"><img src="images/jiufen.webp" alt="" width="1280" height="853" loading="lazy"><div class="card-copy"><span class="tag">Old town</span><h3>Explore Jiufen's lanes</h3></div></a></article>
-          <article class="pickup-card"><a href="food.html"><img src="images/night-market.webp" alt="" width="1280" height="853" loading="lazy"><div class="card-copy"><span class="tag">Night market</span><h3>Taste Taipei after dark</h3></div></a></article>
+          <article class="pickup-card"><a href="attractions.html"><img src="images/taroko.webp" alt="" width="1024" height="684" loading="lazy"><div class="card-copy"><span class="tag">Nature</span><h3>Walk through Taroko Gorge</h3></div></a></article>
+          <article class="pickup-card"><a href="attractions.html"><img src="images/jiufen.webp" alt="" width="1024" height="578" loading="lazy"><div class="card-copy"><span class="tag">Old town</span><h3>Explore Jiufen's lanes</h3></div></a></article>
+          <article class="pickup-card"><a href="food.html"><img src="images/night-market.webp" alt="" width="1280" height="960" loading="lazy"><div class="card-copy"><span class="tag">Night market</span><h3>Taste Taipei after dark</h3></div></a></article>
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section" id="video">
       <div class="container">
         <h2>Watch Taipei in motion</h2>
         <video controls preload="metadata" poster="images/taipei-101.webp">
@@ -72,10 +74,12 @@
     </section>
     <section class="section">
       <div class="container">
-        <blockquote class="quote-card">
-          “It is the policy of the United States to preserve and promote extensive, people-to-people relations between the inhabitants of the United States and the people on Taiwan.”
-          <cite>Taiwan Relations Act, Public Law 96-8, 1979</cite>
-        </blockquote>
+        <figure class="quote-card">
+          <blockquote>
+            “It is the policy of the United States to preserve and promote extensive, people-to-people relations between the inhabitants of the United States and the people on Taiwan.”
+          </blockquote>
+          <figcaption>Taiwan Relations Act, Public Law 96-8, 1979</figcaption>
+        </figure>
       </div>
     </section>
     <section class="section">
@@ -84,7 +88,7 @@
         <nav class="round-links" aria-label="Explore website">
           <a class="round-link" href="attractions.html">Explore</a>
           <a class="round-link" href="food.html">Eat</a>
-          <a class="round-link" href="#main">Watch</a>
+          <a class="round-link" href="#video">Watch</a>
           <a class="round-link" href="credits.html">Credits</a>
         </nav>
       </div>
