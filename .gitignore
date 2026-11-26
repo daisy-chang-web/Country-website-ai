@@ -1,0 +1,6 @@
+*-original.*
+*-draft.*
+*.psd
+*.ai
+reference-screenshot.*
+.DS_Store

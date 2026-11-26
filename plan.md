@@ -11,10 +11,10 @@
 - **Status (update as you go):**
   - [x] Plan written and reviewed against the assignment requirements
   - [x] Visual direction chosen (section 5) and a home-page style preview made
-  - [ ] Wireframes for all 4 pages
+  - [x] Wireframes for all 4 pages
   - [x] Images and video chosen, downloaded, license verified
   - [x] HTML, CSS, JS built
-  - [ ] Accessibility, responsive, validation passes
+  - [x] Accessibility, responsive, validation passes
   - [x] Credits page complete
   - [ ] Public GitHub repo pushed
 
@@ -157,7 +157,16 @@ The reference screenshot is for the student's personal use only. Do not commit i
 - Max content width about 1100–1200px, centered, so it still looks good at 1920px
 
 ### 5.6 Wireframes
-- [ ] Mobile and desktop sketch for each of the 4 pages (only the home style preview exists so far)
+- [x] Mobile and desktop layout for all 4 pages
+
+**Common mobile layout:** skip link; round logo; Menu button; stacked nav when open; 16px page gutter; rounded content panels; 44px minimum controls.
+
+**Common desktop layout (900px+):** logo left, four links in a horizontal Flexbox; 1180px maximum content width; cards and galleries expand into Grid columns.
+
+- **Home:** hero image and title; blue facts panel; pink 3-card pickup Grid; full-width video; quote; four round links.
+- **Attractions:** intro; 2-column tablet or 3-column desktop gallery of attraction cards.
+- **Food:** two feature cards; horizontally scrollable dishes table; stacked form fields.
+- **Credits:** centered content column with sections for media, code and AI assistance.
 
 ## 6. Accessibility Plan
 
@@ -225,22 +234,22 @@ Rules:
 
 ## 11. Final Submission Checklist
 
-- [ ] 4 HTML pages (3 about Taiwan + credits)
-- [ ] 1 table, 2+ images, 1 video, 1 blockquote, 1 contact form
-- [ ] Navigation with links to every page, reused on all pages
-- [ ] Unique meta description (and title) on each page
-- [ ] Favicon works on mobile, tablet, desktop
-- [ ] External stylesheet shared by all pages
-- [ ] CSS Grid used at least once
-- [ ] CSS Flexbox used at least once
-- [ ] At least one custom font
-- [ ] Mobile-first CSS, works from 320px to 1920px
-- [ ] Skip-to-content link and full keyboard navigation
-- [ ] Images and video optimized
-- [ ] No templates or frameworks (only normalize/reset)
-- [ ] All content is Creative Commons (or accepted free license) and credited
-- [ ] Credits list every asset with creator link and page used, plus font, normalize.css and the AI resource
-- [ ] HTML and CSS validate with no errors
+- [x] 4 HTML pages (3 about Taiwan + credits)
+- [x] 1 table, 2+ images, 1 video, 1 blockquote, 1 contact form
+- [x] Navigation with links to every page, reused on all pages
+- [x] Unique meta description (and title) on each page
+- [x] Favicon works on mobile, tablet, desktop
+- [x] External stylesheet shared by all pages
+- [x] CSS Grid used at least once
+- [x] CSS Flexbox used at least once
+- [x] At least one custom font
+- [x] Mobile-first CSS, works from 320px to 1920px
+- [x] Skip-to-content link and full keyboard navigation
+- [x] Images and video optimized
+- [x] No templates or frameworks (only normalize/reset)
+- [x] All content is Creative Commons (or accepted free license) and credited
+- [x] Credits list every asset with creator link and page used, plus font, normalize.css and the AI resource
+- [x] HTML and CSS validate with no errors
 - [ ] Code is in a public GitHub repository
 
 ## 12. Decisions
@@ -267,9 +276,9 @@ Rules:
 
 ## 14. Open Items
 
-- [ ] Wireframes for all 4 pages
-- [ ] Pick and download the video and all images; verify licenses on the source pages
-- [ ] Choose the blockquote text (short, public-domain or CC) with `<cite>` and credit
+- [x] Wireframes for all 4 pages
+- [x] Pick and download the video and all images; verify licenses on the source pages
+- [x] Choose the blockquote text (short, public-domain or CC) with `<cite>` and credit
 - [ ] Confirm with the instructor that Pexels/Pixabay/Unsplash are accepted
-- [ ] Decide whether the About section gets the SVG map (stretch) or just circular photos
+- [x] Decide whether the About section gets the SVG map (stretch) or just circular photos
 - [ ] Create the GitHub repo name and confirm it is public
