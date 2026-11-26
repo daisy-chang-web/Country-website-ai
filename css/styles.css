@@ -59,7 +59,7 @@ a:hover { text-decoration-thickness: 3px; }
   min-height: 76px;
   padding: .5rem .75rem;
   background: var(--white);
-  border-radius: 999px;
+  border-radius: 36px;
   box-shadow: 0 8px 30px rgba(18,48,107,.08);
 }
 .logo-badge {
@@ -220,4 +220,12 @@ textarea { min-height: 140px; resize: vertical; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+}
+
+.header-panel { row-gap: 0; }
+.header-panel .menu-button { margin-left: auto; }
+.header-panel nav { flex-basis: 100%; }
+@media (min-width: 900px) {
+  .header-panel nav { flex-basis: auto; margin-left: auto; }
+  .header-panel { border-radius: 999px; }
 }
