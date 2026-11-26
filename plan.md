@@ -16,7 +16,7 @@
   - [x] HTML, CSS, JS built
   - [x] Accessibility, responsive, validation passes
   - [x] Credits page complete
-  - [ ] Public GitHub repo pushed
+  - [x] Public GitHub repo pushed
 
 ## 1. Project Overview
 
@@ -250,7 +250,7 @@ Rules:
 - [x] All content is Creative Commons (or accepted free license) and credited
 - [x] Credits list every asset with creator link and page used, plus font, normalize.css and the AI resource
 - [x] HTML and CSS validate with no errors
-- [ ] Code is in a public GitHub repository
+- [x] Code is in a public GitHub repository
 
 ## 12. Decisions
 
