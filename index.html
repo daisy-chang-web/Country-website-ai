@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taiwan | Friendly Travel Guide</title>
+  <meta name="description" content="Discover Taiwan through quick facts, scenic attractions, famous food and a short Taipei timelapse.">
+  <meta name="theme-color" content="#12306B">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-panel">
+      <a class="logo-badge" href="index.html" aria-label="Taiwan home">TW</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+      <ul class="site-menu" id="site-menu">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="attractions.html">Attractions</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="credits.html">Credits</a></li>
+      </ul>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-card">
+        <img src="images/taipei-101.webp" alt="Taipei 101 rising above the city skyline" width="1280" height="853">
+        <div class="hero-title"><h1>Taiwan</h1><p>An island of mountain trails, night markets and warm welcomes.</p></div>
+      </div>
+    </section>
+    <svg class="wave" viewBox="0 0 1440 32" preserveAspectRatio="none" aria-hidden="true"><path d="M0 16Q360 34 720 16T1440 16V32H0Z" fill="#CFEAF0"/></svg>
+    <section class="section panel blue">
+      <div class="container about-grid">
+        <div>
+          <h2>About Taiwan</h2>
+          <p>Taiwan sits off the southeastern coast of China and combines compact cities, forested mountains and a long Pacific coastline. It is easy to pair a modern metro stop with a scenic railway or hiking trail.</p>
+          <dl class="fact-list">
+            <div><dt>Capital</dt><dd>Taipei</dd></div>
+            <div><dt>Population</dt><dd>~23.5 million</dd></div>
+            <div><dt>Languages</dt><dd>Mandarin</dd></div>
+            <div><dt>Currency</dt><dd>New Taiwan dollar</dd></div>
+          </dl>
+        </div>
+        <img src="images/sun-moon-lake.webp" alt="Mountain ridges surrounding a calm lake" width="1280" height="853" loading="lazy">
+      </div>
+    </section>
+    <section class="section panel pink">
+      <div class="container">
+        <h2 class="pickup-heading">Pick up</h2>
+        <div class="card-grid">
+          <article class="pickup-card"><a href="attractions.html"><img src="images/taroko.webp" alt="" width="1280" height="853" loading="lazy"><div class="card-copy"><span class="tag">Nature</span><h3>Walk through Taroko Gorge</h3></div></a></article>
+          <article class="pickup-card"><a href="attractions.html"><img src="images/jiufen.webp" alt="" width="1280" height="853" loading="lazy"><div class="card-copy"><span class="tag">Old town</span><h3>Explore Jiufen's lanes</h3></div></a></article>
+          <article class="pickup-card"><a href="food.html"><img src="images/night-market.webp" alt="" width="1280" height="853" loading="lazy"><div class="card-copy"><span class="tag">Night market</span><h3>Taste Taipei after dark</h3></div></a></article>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2>Watch Taipei in motion</h2>
+        <video controls preload="metadata" poster="images/taipei-101.webp">
+          <source src="video/taipei-timelapse.webm" type="video/webm">
+          <p>Your browser cannot play the video. The clip shows Taipei changing through the Google Timelapse series.</p>
+        </video>
+        <p><strong>Video description:</strong> A silent, 40-second timelapse of Taipei. The view shows urban development and changing land use around Taipei, Taiwan.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <blockquote class="quote-card">
+          “It is the policy of the United States to preserve and promote extensive, people-to-people relations between the inhabitants of the United States and the people on Taiwan.”
+          <cite>Taiwan Relations Act, Public Law 96-8, 1979</cite>
+        </blockquote>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2>What can you do in Taiwan?</h2>
+        <nav class="round-links" aria-label="Explore website">
+          <a class="round-link" href="attractions.html">Explore</a>
+          <a class="round-link" href="food.html">Eat</a>
+          <a class="round-link" href="#main">Watch</a>
+          <a class="round-link" href="credits.html">Credits</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>Friendly travel guide to Taiwan.</p><a href="credits.html">Media credits</a></div></footer>
+  <script src="js/nav.js"></script>
+</body>
+</html>

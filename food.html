@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taiwan Food | Friendly Travel Guide</title>
+  <meta name="description" content="Taste Taiwan through niu rou mian, bubble tea, night markets and a local food table.">
+  <meta name="theme-color" content="#12306B">
+  <link rel="icon" href="favicon.ico"><link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="css/normalize.css"><link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header"><div class="container header-panel">
+    <a class="logo-badge" href="index.html" aria-label="Taiwan home">TW</a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+    <ul class="site-menu" id="site-menu"><li><a href="index.html">Home</a></li><li><a href="attractions.html">Attractions</a></li><li><a href="food.html" aria-current="page">Food</a></li><li><a href="credits.html">Credits</a></li></ul>
+  </div></header>
+  <main id="main">
+    <section class="section"><div class="container"><h1>Taiwan on a plate</h1><p>Taiwanese food blends local traditions with influences from many communities. Night markets make small tastings especially easy.</p></div></section>
+    <section class="section"><div class="container food-grid">
+      <div class="food-feature"><img src="images/night-market.webp" alt="A food stall in Linjiang Street Night Market" width="1280" height="853" loading="lazy"><h2>Night markets</h2><p>Start in Taipei's Raohe or Shilin markets, then try smaller evening markets in Tainan or Kaohsiung.</p></div>
+      <div class="food-feature"><img src="images/bubble-tea.webp" alt="A Taiwanese bubble tea shop and drinks" width="1280" height="853" loading="lazy"><h2>Bubble tea</h2><p>Chewy tapioca pearls, tea and milk form a refreshing snack, but the combinations are nearly endless.</p></div>
+    </div></section>
+    <section class="section"><div class="container">
+      <section class="table-scroll" tabindex="0" aria-label="Scrollable table of Taiwanese dishes">
+        <table>
+          <caption>Taiwanese dishes</caption>
+          <thead><tr><th scope="col">Dish</th><th scope="col">Description</th><th scope="col">Where to try it</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Niu rou mian</th><td>Beef noodle soup with clear or rich broth.</td><td>Noodle shops and night markets</td></tr>
+            <tr><th scope="row">Xiaolongbao</th><td>Small soup dumplings folded around a savoury filling.</td><td>Din Tai Fung and local dumpling houses</td></tr>
+            <tr><th scope="row">Bubble tea</th><td>Milk or fruit tea shaken with toppings such as tapioca pearls.</td><td>Tea shops across Taiwan</td></tr>
+            <tr><th scope="row">Chou doufu</th><td>Fermented tofu, crisp-fried or steamed with herbs.</td><td>Shilin and Raohe night markets</td></tr>
+            <tr><th scope="row">Oa jian</th><td>An egg and oyster omelette with a savoury sauce.</td><td>Night markets in Taipei and Tainan</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </div></section>
+    <section class="section"><div class="container">
+      <h2>Share a food recommendation</h2>
+      <form action="#" method="post">
+        <fieldset><legend>Contact details</legend>
+          <label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required>
+          <label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required>
+          <label for="dish">Favourite dish</label><select id="dish" name="dish"><option value="">Choose one</option><option>Niu rou mian</option><option>Xiaolongbao</option><option>Bubble tea</option><option>Chou doufu</option><option>Oa jian</option></select>
+          <label for="message">Message</label><textarea id="message" name="message" required aria-describedby="message-hint"></textarea><small id="message-hint">Tell us where you ate and what made it memorable.</small>
+        </fieldset>
+        <button class="submit-button" type="submit">Send recommendation</button>
+      </form>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>Friendly travel guide to Taiwan.</p><a href="credits.html">Media credits</a></div></footer>
+  <script src="js/nav.js"></script>
+</body>
+</html>

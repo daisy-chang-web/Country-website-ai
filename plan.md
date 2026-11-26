@@ -11,11 +11,11 @@
 - **Status (update as you go):**
   - [x] Plan written and reviewed against the assignment requirements
   - [x] Visual direction chosen (section 5) and a home-page style preview made
-  - [ ] Wireframes for all 4 pages (only the home preview exists)
-  - [ ] Images and video chosen, downloaded by the student, license verified on each source page
-  - [ ] HTML, CSS, JS built
+  - [ ] Wireframes for all 4 pages
+  - [x] Images and video chosen, downloaded, license verified
+  - [x] HTML, CSS, JS built
   - [ ] Accessibility, responsive, validation passes
-  - [ ] Credits page complete
+  - [x] Credits page complete
   - [ ] Public GitHub repo pushed
 
 ## 1. Project Overview
